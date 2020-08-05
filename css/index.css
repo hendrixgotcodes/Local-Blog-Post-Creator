@@ -48,7 +48,12 @@ body {
   border-radius: 4px;
   font-size: .9rem; }
   .blogInfo-textbox:focus {
-    outline: 3px solid rgba(38, 45, 71, 0.2); }
+    outline: 3px solid rgba(0, 0, 0, 0.2); }
+
+#blogInfo-type {
+  padding: 0px .3rem;
+  font-family: Lato, sans-serif;
+  font-size: .95rem; }
 
 .label-secondary {
   font-size: 1.2rem;
@@ -144,7 +149,7 @@ body {
 .success {
   background-color: #34ff71; }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   main {
     width: 90%; }
   .header-primary {
@@ -162,10 +167,14 @@ body {
     width: 100%;
     height: 10rem; } }
 
-@media only screen and (min-width: 500px) and (max-width: 900px) {
+@media only screen and (min-width: 600px) and (max-width: 900px) {
   main {
     width: 80%; }
   .header-primary {
     font-size: 2rem; }
   .blogInfo-submit {
-    width: 12%; } }
+    width: 20%; } }
+
+@media only screen and (min-width: 600px) and (max-width: 700px) {
+  .blogInfo-submit {
+    width: 15%; } }

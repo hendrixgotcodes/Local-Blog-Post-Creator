@@ -43,6 +43,7 @@ document.querySelector(".blog-posts").addEventListener("click", e => {
 function createPost(post) {
   if (
     blogInfoType.value === "" ||
+    blogInfoType.value === "----"||
     blogInfoTopic.value === "" ||
     blogInfoAuthor.value === "" ||
     blogInfoContent.value === ""
